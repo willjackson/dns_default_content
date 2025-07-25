@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bb924963-0c15-4db9-9e55-06f825bfac75
+  bundle: event
+  default_langcode: en
+  depends:
+    120d1814-0aff-42b3-8574-b4456665a129: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New England Drupal Camp 2025'
+  created:
+    -
+      value: 1753409286
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Community camp for New England Drupalers. Two‑day event with talks, workshops, and code sprints.'
+      format: basic_html
+      summary: ''
+  field_event_date:
+    -
+      value: '2025-11-14'
+  field_event_hero:
+    -
+      entity: 120d1814-0aff-42b3-8574-b4456665a129
+      alt: 'New England Drupal Camp 2025'
+      title: ''
+      width: 220
+      height: 178
+  field_location:
+    -
+      value: 'Providence, Rhode Island, USA'
+  field_virtual_event:
+    -
+      value: false

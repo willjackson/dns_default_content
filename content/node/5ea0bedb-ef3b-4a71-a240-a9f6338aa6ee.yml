@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5ea0bedb-ef3b-4a71-a240-a9f6338aa6ee
+  bundle: event
+  default_langcode: en
+  depends:
+    ec02a469-25b3-4ad8-9219-6e815dfab047: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'MidCamp 2026 (Chicago)'
+  created:
+    -
+      value: 1753409312
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Midwestern DrupalCamp, one of the largest regionals. Three‑day event with extensive training, sessions, and contributions.'
+      format: basic_html
+      summary: ''
+  field_event_date:
+    -
+      value: '2026-05-12'
+  field_event_hero:
+    -
+      entity: ec02a469-25b3-4ad8-9219-6e815dfab047
+      alt: Midcamp
+      title: ''
+      width: 525
+      height: 650
+  field_location:
+    -
+      value: 'Chicago, Illinois, USA'
+  field_virtual_event:
+    -
+      value: false

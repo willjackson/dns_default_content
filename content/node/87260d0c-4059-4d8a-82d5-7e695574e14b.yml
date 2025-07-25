@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 87260d0c-4059-4d8a-82d5-7e695574e14b
+  bundle: event
+  default_langcode: en
+  depends:
+    1b4008ae-5e03-4974-ba52-4f17ac318c78: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Florida DrupalCamp 2026'
+  created:
+    -
+      value: 1753409306
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Regional camp in Florida. Workshops and sessions tailored for Florida Drupal community.'
+      format: basic_html
+      summary: ''
+  field_event_date:
+    -
+      value: '2026-02-20'
+  field_event_hero:
+    -
+      entity: 1b4008ae-5e03-4974-ba52-4f17ac318c78
+      alt: 'Florida DrupalCamp 2026'
+      title: ''
+      width: 1633
+      height: 862
+  field_location:
+    -
+      value: 'Florida, USA'
+  field_virtual_event:
+    -
+      value: false

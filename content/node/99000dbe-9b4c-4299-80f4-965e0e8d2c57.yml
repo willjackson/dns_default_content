@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 99000dbe-9b4c-4299-80f4-965e0e8d2c57
+  bundle: event
+  default_langcode: en
+  depends:
+    7dc0992b-138c-45d3-87bd-4d0b17160b30: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Bay Area Drupal Camp 2025 (BADCamp)'
+  created:
+    -
+      value: 1753409267
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'West Coast regional camp with workshops & sessions. Two‑day event featuring accessibility, DEI, and Drupal release talks.'
+      format: basic_html
+      summary: ''
+  field_event_date:
+    -
+      value: '2025-09-25'
+  field_event_hero:
+    -
+      entity: 7dc0992b-138c-45d3-87bd-4d0b17160b30
+      alt: 'Bay Area Drupal Camp 2025 (BADCamp)'
+      title: ''
+      width: 768
+      height: 976
+  field_location:
+    -
+      value: 'Oakland, California, USA'
+  field_virtual_event:
+    -
+      value: false

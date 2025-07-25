@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 438062bc-e1bf-4744-9766-5977cbf96f41
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'DC Chicago 2025 Banner.png'
+  uri:
+    -
+      value: 'public://events/hero/DC Chicago 2025 Banner.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 97079
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753410961

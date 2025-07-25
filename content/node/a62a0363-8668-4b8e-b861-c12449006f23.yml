@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a62a0363-8668-4b8e-b861-c12449006f23
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Getting Started'
+  created:
+    -
+      value: 1753412593
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /getting-started
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<h1>Getting Started with Drupal 11 + Next.js Starter Kit</h1><p>This guide will introduce a modern headless CMS setup using Drupal 11 as the content management backend paired with Next.js 15 for the frontend framework.</p><h2>Features</h2><ul><li><strong>Backend:</strong> Drupal 11 utilizing JSON:API and Simple OAuth authentication</li><li><strong>Frontend:</strong> Next.js 15 featuring App Router, TypeScript, and Tailwind CSS</li><li><strong>Content Types:</strong> Includes Pages, Articles, Events with image fields</li><li><strong>Authentication:</strong> Supported through OAuth2 client credentials flow</li><li><strong>Development:</strong> Environment setup via Docksal containers</li></ul><h2>Prerequisites</h2><ul><li>Ensure <a href=\"https://docksal.io/\" target=\"_blank\">Docksal</a> is installed and operational</li><li>Docker and Docker Compose (installed via Docksal)</li></ul><h2>Installation</h2><h3>1. Clone and Initialize</h3><pre>git clone &lt;repository-url&gt; d11-nextjs-starter\r\ncd d11-nextjs-starter\r\nfin init\r\n</pre><h3>2.Configure Environment</h3><p>Copy and configure Next.js environment:</p><pre>cd web\r\ncp .env.example .env.local\r\n</pre><p>Update <code>.env.local</code> with your Docksal URLs:</p><pre>NEXT_PUBLIC_DRUPAL_BASE_URL=http://drupal.d11-nextjs-starter.dev.kanopi.cloud\r\nDRUPAL_CLIENT_ID=default_consumer\r\nDRUPAL_CLIENT_SECRET=nextjs-drupal\r\n</pre><h2>Usage</h2><h3>Development Servers</h3><p><strong>Start Drupal:</strong> (automatically runs with Docksal)</p><pre>fin start\r\n</pre><p><strong>Start Next.js:</strong></p><pre>fin develop              # Development server\r\nfin develop --background # Run in background\r\n</pre><h3>Access Points</h3><ul><li><strong>Drupal Admin:</strong> http://drupal.drupal-nextjs-starter.docksal.site</li><li><strong>Next.js Frontend:</strong> http://drupal-nextjs-starter.docksal.site</li></ul><h3>Content Management</h3><ol><li><strong>Create Content:</strong> Add pages, articles, or events in the Drupal admin</li><li><strong>Set URL Aliases:</strong> Configure friendly URLs in Drupal</li><li><strong>View Frontend:</strong> Content appears automatically on the Next.js site</li></ol><h2>Project Structure</h2><pre>├── drupal/                 # Drupal 11 backend\r\n│   ├── web/               # Drupal web root\r\n│   ├── config/sync/       # Configuration files\r\n│   └── composer.json      # PHP dependencies\r\n├── web/                   # Next.js frontend\r\n│   ├── src/\r\n│   │   ├── app/          # App Router pages\r\n│   │   ├── components/   # React components\r\n│   │   └── lib/          # Utilities and API functions\r\n│   ├── package.json      # Node dependencies\r\n│   └── .env.local        # Environment variables\r\n└── .docksal/             # Docksal configuration\r\n</pre><h2>Key Commands</h2><h3>Docksal</h3><pre>fin start              # Start containers\r\nfin stop               # Stop containers\r\nfin restart            # Restart containers\r\nfin exec &lt;command&gt;     # Execute command in web container\r\n</pre><h3>Drupal</h3><pre>fin drush &lt;command&gt;    # Run Drush commands\r\nfin composer &lt;command&gt; # Run Composer commands\r\n</pre><h3>Next.js</h3><pre>fin develop              # Development server\r\nfin develop --background # Run in background\r\n</pre><h2>Content Types</h2><h3>Pages</h3><ul><li>Basic pages with title, body, and optional hero image</li><li>Accessible at custom URL aliases.</li><li>When a page is added to the NextJS Menu in Drupal, it will appear within the navigation in NextJS.</li></ul><h3>Articles</h3><ul><li>Blog-style content with tags and featured images</li><li>Support for promoted and sticky flags</li><li>Accessible at <code>/posts/[slug]</code></li></ul><h3>Events</h3><ul><li>Event content with date, location, and descriptions</li><li>Virtual event support</li><li>Accessible at <code>/events/[slug]</code></li></ul><h2>Troubleshooting</h2><ul><li><strong>Drupal 404 errors:</strong> Clear cache with <code>fin drush cache:rebuild</code></li><li><strong>Next.js build errors:</strong> Check environment variables in <code>.env.local</code></li><li><strong>OAuth authentication issues:</strong> Verify client credentials in Drupal OAuth settings</li><li><strong>Database connection:</strong> Restart Docksal with <code>fin restart</code></li></ul><h2>Development Notes</h2><ul><li>Content is fetched server-side using Drupal's JSON:API</li><li>Images are optimized using Next.js Image component</li><li>URL aliases in Drupal determine Next.js routes</li><li>All API calls use OAuth2 authentication for security</li></ul><h2>Claude AI Integration</h2><p>This project includes documentation for AI assistance, offering benefits such as:</p><ul><li>Faster content type creation with mapping guidance</li><li>Routing assistance for implementing new routes</li><li>Help debugging connectivity issues</li><li>Code reviews and best practice recommendations</li><li>Updated documentation through AI insights</li></ul><h3>Using with Claude Projects</h3><ol><li>Create a new Claude Project in your Claude interface</li><li>Review the <code>project-instructions.md</code> for context on the integration, workflows, and strategies</li><li>Include relevant source files from your project</li><li>Use the <code>fin mcp</code> command to display MCP connection information.</li></ol><h3>Example AI Prompts</h3><pre>\"Help add a new 'Product' content type with price and gallery fields\"\r\n\"Debug why images aren't loading from Drupal\"\r\n\"Create a taxonomy filter page for article categories\"\r\n\"Optimize data fetching for better performance\"\r\n</pre><p>The <code>project-instructions.md</code> file serves as a comprehensive reference to aid AI assistants in understanding the project's architecture.</p>"
+      format: full_html
+      summary: 'This guide will introduce a modern headless CMS setup using Drupal 11 as the content management backend paired with Next.js 15 for the frontend framework.'

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 72e66405-5997-4a43-9d32-e9b2bbec073f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dc-colorado.png
+  uri:
+    -
+      value: 'public://events/hero/dc-colorado.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 32967
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753412112

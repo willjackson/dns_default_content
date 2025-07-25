@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e75ce8d0-5a99-46c5-8172-5a3d09a9a9b8
+  bundle: event
+  default_langcode: en
+  depends:
+    72e66405-5997-4a43-9d32-e9b2bbec073f: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'DrupalCamp Colorado 2025'
+  created:
+    -
+      value: 1753409239
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Rocky Mountain regional DrupalCamp with workshops and talks. Two‑day community event focused on sharing Drupal insights and networking.'
+      format: basic_html
+      summary: ''
+  field_event_date:
+    -
+      value: '2025-07-25'
+  field_event_hero:
+    -
+      entity: 72e66405-5997-4a43-9d32-e9b2bbec073f
+      alt: 'DrupalCamp Colorado 2025'
+      title: ''
+      width: 1131
+      height: 454
+  field_location:
+    -
+      value: 'Denver, Colorado, USA'
+  field_virtual_event:
+    -
+      value: false

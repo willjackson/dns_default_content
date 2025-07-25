@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c147531d-3448-40dc-ad49-35a19b19b3ff
+  bundle: event
+  default_langcode: en
+  depends:
+    438062bc-e1bf-4744-9766-5977cbf96f41: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'DrupalCon North America 2026 (Chicago)'
+  created:
+    -
+      value: 1753409299
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Major annual Drupal conference. Four days of training, sessions, summits, and expo.'
+      format: basic_html
+      summary: ''
+  field_event_date:
+    -
+      value: '2026-03-23'
+  field_event_hero:
+    -
+      entity: 438062bc-e1bf-4744-9766-5977cbf96f41
+      alt: 'DC Chicago 2025 Banner'
+      title: ''
+      width: 1920
+      height: 691
+  field_location:
+    -
+      value: 'Chicago, Illinois, USA'
+  field_virtual_event:
+    -
+      value: false

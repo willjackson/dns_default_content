@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 99b292ce-55a2-49c5-ad73-2a9a3ad33cef
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dcchatt_noyear_logo_0.png
+  uri:
+    -
+      value: 'public://events/hero/dcchatt_noyear_logo_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 74472
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753411637

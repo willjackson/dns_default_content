@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0ff8cb47-df89-49e6-86d9-288421c940be
+  bundle: event
+  default_langcode: en
+  depends:
+    1cd893a8-ac6c-4feb-9180-ce5afa352444: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Drupal GovCon 2025'
+  created:
+    -
+      value: 1753409246
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Focused on government use of Drupal. Sessions for public sector developers, agency case studies, and hands‑on workshops.'
+      format: basic_html
+      summary: ''
+  field_event_date:
+    -
+      value: '2025-08-14'
+  field_event_hero:
+    -
+      entity: 1cd893a8-ac6c-4feb-9180-ce5afa352444
+      alt: 'Drupal GovCon 2025'
+      title: ''
+      width: 1200
+      height: 675
+  field_location:
+    -
+      value: 'College Park, Maryland, USA'
+  field_virtual_event:
+    -
+      value: false

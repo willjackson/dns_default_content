@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 63d6a787-8899-4dab-a052-f99855cf6b6f
+  bundle: article
+  default_langcode: en
+  depends:
+    d09d850e-d08b-4722-b376-66fdd38ce858: file
+    d80f7862-81ee-47d4-9510-cbcb59a270a8: taxonomy_term
+    340b7de6-fa02-41b0-a2b6-c7ce926adf5d: taxonomy_term
+    8ffa63b3-5ba1-484f-8119-379de0754505: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Decoupled, Not Detached: Why Drupal + Next.js Is the Future of the Web'
+  created:
+    -
+      value: 1753408598
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<h2>Advantages of Using Drupal and Next.js Together</h2><ul><li><strong>Decoupled Architecture:</strong> Utilizing Drupal as a headless CMS allows developers to manage content effectively on the backend while Next.js handles the front-end presentation with enhanced user experiences.</li><li><strong>SEO and Performance:</strong> Next.js provides features like server-side rendering and static site generation, which are essential for SEO and ensuring fast load times.</li><li><strong>Scalability:</strong> The separation of concerns between Drupal and Next.js allows for easier scaling of either system as needed, ensuring both can handle increasing loads independently.</li><li><strong>Flexibility in Design:</strong> Front-end engineers can use Next.js to implement modern design principles and interactive features without being constrained by traditional back-end CMS structures.</li></ul><h2>Implementation Overview</h2><h3>1. Setting Up Drupal</h3><p>Drupal is configured to function as a headless CMS, exposing content through its JSON:API or RESTful web services. This setup is crucial for enabling the integration with a front-end framework like Next.js.</p><h3>2. Integrating Next.js</h3><p>With Next.js, developers can build a reactive and dynamic front end. Fetching data from Drupal's API enables the construction of interactive interfaces that can be rendered statically or server-side, depending on the needs of the application.</p><h2>Challenges and Considerations</h2><ul><li><strong>Data Synchronization:</strong> Ensuring real-time data consistency between the CMS and front-end can be complex but is manageable through incremental static regeneration.</li><li><strong>Hosting and Deployment:</strong> Carefully plan deployment strategies as both Drupal and Next.js might have different requirements. Utilize platforms that support both for seamless integration.</li></ul><h2>Conclusion</h2><p>The synergy between Drupal and Next.js represents a powerful strategy for modern web development. By leveraging the strengths of each platform, developers can craft websites and applications that are not only rich in content but also deliver high levels of performance and interactivity.</p>"
+      format: basic_html
+      summary: 'The integration of Drupal with Next.js offers transformative potential for front-end development, enabling developers to create robust, dynamic, and high-performance web applications. This combination leverages the best of content management and modern, dynamic front-end frameworks.'
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1753408633
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_image:
+    -
+      entity: d09d850e-d08b-4722-b376-66fdd38ce858
+      alt: 'Decoupled, Not Detached: Why Drupal + Next.js Is the Future of the Web'
+      title: ''
+      width: 1536
+      height: 1024
+  field_tags:
+    -
+      entity: d80f7862-81ee-47d4-9510-cbcb59a270a8
+    -
+      entity: 340b7de6-fa02-41b0-a2b6-c7ce926adf5d
+    -
+      entity: 8ffa63b3-5ba1-484f-8119-379de0754505

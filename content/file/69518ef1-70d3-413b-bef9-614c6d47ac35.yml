@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 69518ef1-70d3-413b-bef9-614c6d47ac35
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drupalcon-atalnta.jpeg
+  uri:
+    -
+      value: 'public://events/hero/drupalcon-atalnta.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 434307
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753414419

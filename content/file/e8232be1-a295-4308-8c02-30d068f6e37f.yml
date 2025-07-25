@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e8232be1-a295-4308-8c02-30d068f6e37f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: demo-blog-5.png
+  uri:
+    -
+      value: 'public://2025-07/demo-blog-5.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2170116
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753409932

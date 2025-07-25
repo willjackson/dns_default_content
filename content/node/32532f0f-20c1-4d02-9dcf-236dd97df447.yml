@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 32532f0f-20c1-4d02-9dcf-236dd97df447
+  bundle: article
+  default_langcode: en
+  depends:
+    23500295-1e49-4279-97d9-9ba72b233bb9: file
+    d80f7862-81ee-47d4-9510-cbcb59a270a8: taxonomy_term
+    30c572ca-b9d3-4041-ae93-d10e4a177567: taxonomy_term
+    db9f4319-c960-4748-b867-e191a33bd529: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: "Starshot Ignition: What Drupal's Bold New Vision Means for Site Builders"
+  created:
+    -
+      value: 1753409577
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<h2>What is Drupal Starshot?</h2>\r\n\r\n<p>Drupal Starshot represents the most ambitious initiative in Drupal's history—a bold reimagining of what a content management system can be in the modern digital landscape. Announced as Drupal's moonshot project, Starshot aims to create a next-generation product that maintains Drupal's powerful foundation while dramatically improving the user experience for content creators, site builders, and developers alike.</p>\r\n\r\n<p>Think of Starshot not as Drupal 11 or 12, but as Drupal reimagined from the ground up with modern user expectations and technological capabilities in mind. It's designed to be the CMS that both technical and non-technical users will love to use, bridging the gap between Drupal's enterprise-grade capabilities and the ease of use that today's digital teams demand.</p>\r\n\r\n<h2>The Vision Behind Starshot</h2>\r\n\r\n<p>Starshot addresses a fundamental challenge that has long faced the Drupal community: while Drupal excels as a powerful, flexible platform for developers, it can be intimidating and complex for content creators and site builders. Starshot envisions a future where:</p>\r\n\r\n<ul>\r\n<li><strong>Content creators</strong> enjoy an intuitive, delightful editing experience</li>\r\n<li><strong>Site builders</strong> can rapidly prototype and deploy sophisticated sites</li>\r\n<li><strong>Developers</strong> retain the flexibility and power they've come to expect from Drupal</li>\r\n<li><strong>Organizations</strong> can achieve faster time-to-value with lower total cost of ownership</li>\r\n</ul>\r\n\r\n<h2>Key Goals and Milestones</h2>\r\n\r\n<h3>Phase 1: Foundation Building (2024-2025)</h3>\r\n<ul>\r\n<li><strong>Modern Administration Interface:</strong> Complete overhaul of Drupal's admin experience with modern UX patterns</li>\r\n<li><strong>Improved Content Authoring:</strong> Streamlined content creation with better visual editing tools</li>\r\n<li><strong>Enhanced Site Building:</strong> Drag-and-drop interfaces for faster site assembly</li>\r\n<li><strong>Performance Optimization:</strong> Significant improvements in page load times and responsiveness</li>\r\n</ul>\r\n\r\n<h3>Phase 2: Intelligence Integration (2025-2026)</h3>\r\n<ul>\r\n<li><strong>AI-Powered Features:</strong> Intelligent content suggestions, automated SEO optimization, and smart content organization</li>\r\n<li><strong>Predictive Analytics:</strong> Built-in insights for content performance and user behavior</li>\r\n<li><strong>Automated Workflows:</strong> Intelligent automation for common tasks and processes</li>\r\n</ul>\r\n\r\n<h3>Phase 3: Ecosystem Evolution (2026+)</h3>\r\n<ul>\r\n<li><strong>Marketplace Integration:</strong> Curated ecosystem of themes, modules, and recipes</li>\r\n<li><strong>Cloud-Native Architecture:</strong> Optimized for modern hosting and deployment patterns</li>\r\n<li><strong>Advanced Personalization:</strong> Sophisticated targeting and content customization capabilities</li>\r\n</ul>\r\n\r\n<h2>What Makes Starshot Different</h2>\r\n\r\n<h3>User-Centric Design</h3>\r\n<p>Every aspect of Starshot is being designed with the end user in mind. This means extensive user research, usability testing, and iterative design processes that prioritize user needs over technical convenience.</p>\r\n\r\n<h3>Modern Technology Stack</h3>\r\n<p>Starshot leverages cutting-edge web technologies while maintaining backward compatibility where possible. This includes modern JavaScript frameworks, improved APIs, and cloud-native architectures.</p>\r\n\r\n<h3>AI-First Approach</h3>\r\n<p>Unlike bolt-on AI features, Starshot is being designed with artificial intelligence as a core component, enabling smarter content management, automated optimization, and intelligent user assistance.</p>\r\n\r\n<h2>Impact on the Drupal Ecosystem</h2>\r\n\r\n<h3>For Content Teams</h3>\r\n<p>Content creators will experience a transformation in their daily workflows. The new editing interface promises to be as intuitive as modern word processors while providing the structured content benefits that make Drupal powerful for omnichannel publishing.</p>\r\n\r\n<h3>For Site Builders</h3>\r\n<p>Site builders will gain access to visual building tools that rival the best website builders while retaining the flexibility and customization options that make Drupal suitable for complex requirements.</p>\r\n\r\n<h3>For Developers</h3>\r\n<p>Developers will benefit from improved APIs, better development tools, and modern architectural patterns while still having access to Drupal's renowned flexibility and extensibility.</p>\r\n\r\n<h3>For Agencies and Enterprises</h3>\r\n<p>Organizations will see reduced training costs, faster project delivery, and improved client satisfaction as Starshot makes Drupal more accessible to non-technical team members.</p>\r\n\r\n<h2>Getting Involved</h2>\r\n\r\n<p>Starshot is a community-driven initiative that depends on input and contribution from Drupal users worldwide. Here's how you can participate:</p>\r\n\r\n<h3>For Organizations:</h3>\r\n<ul>\r\n<li>Provide feedback on current pain points and desired features</li>\r\n<li>Participate in user research studies and usability testing</li>\r\n<li>Consider piloting Starshot components as they become available</li>\r\n</ul>\r\n\r\n<h3>For Developers:</h3>\r\n<ul>\r\n<li>Contribute to core development and related projects</li>\r\n<li>Help with testing and quality assurance</li>\r\n<li>Share expertise in modern web development practices</li>\r\n</ul>\r\n\r\n<h3>For Designers:</h3>\r\n<ul>\r\n<li>Contribute to UX research and design processes</li>\r\n<li>Help create new interface patterns and components</li>\r\n<li>Provide feedback on usability and accessibility</li>\r\n</ul>\r\n\r\n<h2>The Road Ahead</h2>\r\n\r\n<p>Drupal Starshot represents more than just an evolution of Drupal—it's a recognition that the future of content management requires a fundamental shift in how we think about user experience, artificial intelligence, and digital collaboration.</p>\r\n\r\n<p>While ambitious in scope, Starshot builds on Drupal's proven foundation of security, scalability, and flexibility. The goal isn't to replace what makes Drupal great, but to make those powerful capabilities accessible to a much broader audience.</p>\r\n\r\n<p>As we move toward the initial releases, the success of Starshot will depend on continued community engagement, thoughtful evolution of existing patterns, and a commitment to user-centered design principles.</p>\r\n\r\n<p>For site builders, this is an opportunity to influence the future of the platform you rely on. For the broader Drupal community, Starshot represents our best chance to ensure Drupal remains relevant and competitive in an increasingly crowded CMS landscape.</p>\r\n\r\n<p>The stars are aligning for Drupal's boldest chapter yet. Whether you're building your first Drupal site or your hundredth, Starshot promises to transform how you think about content management and digital experiences.</p>"
+      format: basic_html
+      summary: 'Break down the goals and milestones of Drupal Starshot and why it matters for the future of the CMS.'
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1753409577
+      last_comment_name: ''
+      last_comment_uid: 2
+      comment_count: 0
+  field_image:
+    -
+      entity: 23500295-1e49-4279-97d9-9ba72b233bb9
+      alt: "Starshot Ignition: What Drupal's Bold New Vision Means for Site Builders"
+      title: ''
+      width: 1536
+      height: 1024
+  field_tags:
+    -
+      entity: d80f7862-81ee-47d4-9510-cbcb59a270a8
+    -
+      entity: 30c572ca-b9d3-4041-ae93-d10e4a177567
+    -
+      entity: db9f4319-c960-4748-b867-e191a33bd529

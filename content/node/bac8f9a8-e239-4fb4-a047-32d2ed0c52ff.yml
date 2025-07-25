@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bac8f9a8-e239-4fb4-a047-32d2ed0c52ff
+  bundle: article
+  default_langcode: en
+  depends:
+    e9e7d510-8b30-4509-ade0-f487dbef5d64: file
+    380e7e38-e97a-4333-8102-aaf0d7d1ac76: taxonomy_term
+    d80f7862-81ee-47d4-9510-cbcb59a270a8: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: "From Recipe to Reality: Getting Started with Drupal's Recipe Initiative"
+  created:
+    -
+      value: 1753409541
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<h2>What are Drupal Recipes?</h2>\r\n\r\n<p>Drupal Recipes represent one of the most exciting developments in Drupal's evolution, fundamentally changing how we approach site building and configuration management. Think of Recipes as pre-packaged, reusable configurations that bundle together content types, fields, views, blocks, and other configurations into cohesive, installable units.</p>\r\n\r\n<p>Unlike traditional distributions that provide a complete site framework, Recipes are modular components that can be mixed and matched to create exactly the functionality you need. They're designed to be the missing piece between starting with a bare Drupal installation and having a fully configured, feature-rich website.</p>\r\n\r\n<h2>Why Recipes Matter</h2>\r\n\r\n<p>The traditional Drupal site building process often involves repetitive configuration tasks. Whether you're setting up a blog, creating an event management system, or building an e-commerce platform, you're likely recreating configurations that thousands of other developers have built before. Recipes solve this by providing:</p>\r\n\r\n<ul>\r\n<li><strong>Standardized Solutions:</strong> Best-practice configurations developed and tested by the community</li>\r\n<li><strong>Rapid Deployment:</strong> Go from zero to functional feature in minutes rather than hours</li>\r\n<li><strong>Consistency:</strong> Ensure similar functionality across multiple sites</li>\r\n<li><strong>Learning Tool:</strong> Study how experienced developers structure complex features</li>\r\n</ul>\r\n\r\n<h2>Real-World Recipe Examples</h2>\r\n\r\n<p>Imagine you need to add a news section to your corporate website. Instead of manually creating article content types, configuring taxonomies, setting up views for listing and filtering, and creating the necessary blocks and menus, you could simply install a \"News & Press Releases\" Recipe that includes:</p>\r\n\r\n<ul>\r\n<li>Article content type with appropriate fields</li>\r\n<li>Press release content type</li>\r\n<li>Category and tag taxonomies</li>\r\n<li>Views for news listings, archives, and RSS feeds</li>\r\n<li>Blocks for featured articles and recent news</li>\r\n<li>Menu structure and permissions</li>\r\n</ul>\r\n\r\n<p>Other potential Recipes might include:</p>\r\n<ul>\r\n<li>Event Management (registration, calendars, speakers)</li>\r\n<li>E-learning Platform (courses, lessons, quizzes, certificates)</li>\r\n<li>Portfolio Showcase (projects, case studies, testimonials)</li>\r\n<li>Community Forum (discussions, user profiles, moderation)</li>\r\n</ul>\r\n\r\n<h2>Getting Started with Recipes</h2>\r\n\r\n<p>The Recipe initiative is actively being developed, with the goal of making Recipes a core part of the Drupal experience. Here's how you can start preparing:</p>\r\n\r\n<h3>For Site Builders:</h3>\r\n<ol>\r\n<li><strong>Follow the Initiative:</strong> Stay updated on <a href=\"https://www.drupal.org/project/distributions_recipes\">drupal.org</a> and join community discussions</li>\r\n<li><strong>Document Your Patterns:</strong> Start identifying repeatable configuration patterns in your current projects</li>\r\n<li><strong>Test Early Versions:</strong> Participate in testing as Recipe tools become available</li>\r\n</ol>\r\n\r\n<h3>For Developers:</h3>\r\n<ol>\r\n<li><strong>Learn Configuration Management:</strong> Deepen your understanding of Drupal's configuration system</li>\r\n<li><strong>Study Existing Distributions:</strong> Analyze how current distributions structure their features</li>\r\n<li><strong>Contribute:</strong> Join the Recipe initiative and help shape the future of Drupal site building</li>\r\n</ol>\r\n\r\n<h2>The Future of Site Building</h2>\r\n\r\n<p>Recipes represent more than just a new feature—they're a paradigm shift toward more collaborative, efficient Drupal development. By standardizing common patterns and making them easily shareable, Recipes will:</p>\r\n\r\n<ul>\r\n<li>Lower the barrier to entry for new Drupal developers</li>\r\n<li>Reduce project timelines and costs</li>\r\n<li>Improve the quality and consistency of Drupal sites</li>\r\n<li>Foster greater community collaboration</li>\r\n</ul>\r\n\r\n<p>As the Recipe initiative continues to evolve, we're moving toward a future where building sophisticated Drupal sites is as simple as selecting the right combination of Recipes, much like choosing ingredients for a perfect meal. The foundation is being laid now for a more accessible, efficient, and collaborative Drupal ecosystem.</p>\r\n\r\n<p>Whether you're a seasoned Drupal architect or new to the platform, Recipes will fundamentally change how you approach site building. Start exploring this initiative today and be part of shaping the future of Drupal development.</p>"
+      format: basic_html
+      summary: 'Learn how Drupal Recipes simplify complex configurations and accelerate new project setup.'
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1753409541
+      last_comment_name: ''
+      last_comment_uid: 2
+      comment_count: 0
+  field_image:
+    -
+      entity: e9e7d510-8b30-4509-ade0-f487dbef5d64
+      alt: "From Recipe to Reality: Getting Started with Drupal's Recipe Initiative"
+      title: ''
+      width: 1536
+      height: 1024
+  field_tags:
+    -
+      entity: 380e7e38-e97a-4333-8102-aaf0d7d1ac76
+    -
+      entity: d80f7862-81ee-47d4-9510-cbcb59a270a8

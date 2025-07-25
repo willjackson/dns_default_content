@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f04d171f-43a6-4ac7-bdc6-8389374206db
+  bundle: article
+  default_langcode: en
+  depends:
+    9307385b-dec8-47e5-9488-2349ae24b492: file
+    d80f7862-81ee-47d4-9510-cbcb59a270a8: taxonomy_term
+    db9f4319-c960-4748-b867-e191a33bd529: taxonomy_term
+    30c572ca-b9d3-4041-ae93-d10e4a177567: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'AI Agents, Recipes, and Starshot: A Look at Drupal’s Roadmap to 2026'
+  created:
+    -
+      value: 1753410581
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<h3>1. API-First Initiative</h3><p>This initiative focuses on making Drupal a first-class REST, JSON-API, and GraphQL provider. By prioritizing APIs, developers can create decoupled applications with flexibility. This also facilitates seamless integration with other platforms and services, thus broadening Drupal's utility.</p><h3>2. Layout Builder</h3><p>Enhancing the editing experience, the Layout Builder offers a dynamic tool for building pages with a visual interface. Editors benefit from an intuitive drag-and-drop functionality, allowing for rapid layout customization without needing deep technical expertise.</p><h3>3. Modernizing the Administrative Interface</h3><p>Efforts to modernize Drupal's administrative interface focus on improved user experience and accessibility. By adopting frameworks like React, the admin interface aims to be more responsive and user-friendly, aiding editors in managing content more efficiently.</p><h3>4. Automated Updates</h3><p>This initiative seeks to implement a system for automated updates to improve site security and ease maintenance burdens for developers and site administrators. This reduces downtimes and keeps sites up to date with minimal manual intervention.</p><h3>5. Decoupled Menus</h3><p>Decoupled menu systems allow for greater flexibility in building headless Drupal sites. This initiative ensures that menus can be managed effectively in a decoupled environment, enhancing content delivery capabilities to various front-end frameworks.</p><h3>6. New Front-End Theme: Olivero</h3><p>The introduction of the Olivero theme is part of Drupal's effort to provide a modern, responsive front-end experience. It is designed to be accessible and align with modern web standards, contributing to an improved experience for both developers and end users.</p><h3>7. Workspaces</h3><p>Workspaces enable content staging and preview capabilities, allowing editors to create, modify, and preview changes in a controlled environment before publication. This ensures content accuracy and consistency across digital channels.</p><p>These initiatives collectively aim to enhance Drupal's capacity as a versatile CMS platform. By addressing both developer and editor needs, Drupal positions itself as a more powerful, efficient, and user-friendly solution for content management and development.</p>"
+      format: full_html
+      summary: 'Drupal, a robust content management system, continuously works on initiatives to improve both developer and editor experiences. These initiatives align to form a cohesive platform that enhances usability, efficiency, and functionality.'
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1753410684
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_image:
+    -
+      entity: 9307385b-dec8-47e5-9488-2349ae24b492
+      alt: 'AI Agents, Recipes, and Starshot: A Look at Drupal’s Roadmap to 2026'
+      title: ''
+      width: 1536
+      height: 1024
+  field_tags:
+    -
+      entity: d80f7862-81ee-47d4-9510-cbcb59a270a8
+    -
+      entity: db9f4319-c960-4748-b867-e191a33bd529
+    -
+      entity: 30c572ca-b9d3-4041-ae93-d10e4a177567

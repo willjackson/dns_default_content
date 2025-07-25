@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 120d1814-0aff-42b3-8574-b4456665a129
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ned-camp.png
+  uri:
+    -
+      value: 'public://events/hero/ned-camp.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 11332
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753411542

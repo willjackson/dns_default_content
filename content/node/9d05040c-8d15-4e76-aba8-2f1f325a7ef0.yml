@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9d05040c-8d15-4e76-aba8-2f1f325a7ef0
+  bundle: event
+  default_langcode: en
+  depends:
+    69518ef1-70d3-413b-bef9-614c6d47ac35: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'DrupalCon North America 2025 (Atlanta)'
+  created:
+    -
+      value: 1753409226
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Annual flagship Drupal conference with sessions, trainings, & networking. A major 4‑day event featuring keynotes, sessions, BoFs, sponsors, and community gatherings.'
+      format: basic_html
+      summary: ''
+  field_event_date:
+    -
+      value: '2025-03-24'
+  field_event_hero:
+    -
+      entity: 69518ef1-70d3-413b-bef9-614c6d47ac35
+      alt: 'DrupalCon North America 2025 (Atlanta)'
+      title: ''
+      width: 1524
+      height: 906
+  field_location:
+    -
+      value: 'Atlanta, Georgia, USA'
+  field_virtual_event:
+    -
+      value: false

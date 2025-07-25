@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1b4008ae-5e03-4974-ba52-4f17ac318c78
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: florida-drupal-camp-2026.png
+  uri:
+    -
+      value: 'public://events/hero/florida-drupal-camp-2026.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 353028
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753411234

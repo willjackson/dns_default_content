@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1cd893a8-ac6c-4feb-9180-ce5afa352444
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: govcon.png
+  uri:
+    -
+      value: 'public://events/hero/govcon.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 117566
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753411956

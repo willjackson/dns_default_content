@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 85d6d1a5-9219-4aa9-bd4e-43dc7f406a6a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pnwds-logo-wide.png
+  uri:
+    -
+      value: 'public://events/hero/pnwds-logo-wide.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 27900
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753411783

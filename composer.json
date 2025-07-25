@@ -1,0 +1,10 @@
+{
+    "name": "willjackson/dns_default_content",
+    "type": "drupal-recipe",
+    "description": "Default content for the Drupal NextJS Starter.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": ">=10.4",
+        "drupal/next": "^2"
+    }
+}

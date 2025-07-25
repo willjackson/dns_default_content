@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7dc0992b-138c-45d3-87bd-4d0b17160b30
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bad-camp-2025.png
+  uri:
+    -
+      value: 'public://events/hero/bad-camp-2025.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 39465
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753411867

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 51128941-62ad-4cf7-9236-f30902868c9f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dcavl.jpg
+  uri:
+    -
+      value: 'public://events/hero/dcavl.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 230280
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753412231

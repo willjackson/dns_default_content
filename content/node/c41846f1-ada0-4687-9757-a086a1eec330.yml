@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c41846f1-ada0-4687-9757-a086a1eec330
+  bundle: event
+  default_langcode: en
+  depends:
+    85d6d1a5-9219-4aa9-bd4e-43dc7f406a6a: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Pacific Northwest Drupal Summit 2025'
+  created:
+    -
+      value: 1753409275
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Regional summit for Pacific Northwest Drupal community. Includes workshops, sessions, and community networking.'
+      format: basic_html
+      summary: ''
+  field_event_date:
+    -
+      value: '2025-10-18'
+  field_event_hero:
+    -
+      entity: 85d6d1a5-9219-4aa9-bd4e-43dc7f406a6a
+      alt: 'Pacific Northwest Drupal Summit 2025'
+      title: ''
+      width: 693
+      height: 227
+  field_location:
+    -
+      value: 'Troutdale, Oregon, USA'
+  field_virtual_event:
+    -
+      value: false

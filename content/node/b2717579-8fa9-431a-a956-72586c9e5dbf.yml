@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b2717579-8fa9-431a-a956-72586c9e5dbf
+  bundle: event
+  default_langcode: en
+  depends:
+    a4d2748b-e2ad-456e-be8b-ae9abe14d7b3: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Decoupled Days 2025 (NYC)'
+  created:
+    -
+      value: 1753409253
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Highlights decoupled/Headless Drupal. Talks and case studies on modern frontend architectures.'
+      format: basic_html
+      summary: ''
+  field_event_date:
+    -
+      value: '2025-08-13'
+  field_event_hero:
+    -
+      entity: a4d2748b-e2ad-456e-be8b-ae9abe14d7b3
+      alt: 'Decoupled Days 2025 (NYC)'
+      title: ''
+      width: 398
+      height: 158
+  field_location:
+    -
+      value: 'New York, New York, USA'
+  field_virtual_event:
+    -
+      value: false

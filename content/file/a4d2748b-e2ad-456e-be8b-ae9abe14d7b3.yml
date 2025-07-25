@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a4d2748b-e2ad-456e-be8b-ae9abe14d7b3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: DD2025-Website-Logo2.png
+  uri:
+    -
+      value: 'public://events/hero/DD2025-Website-Logo2.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 5320
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753412014

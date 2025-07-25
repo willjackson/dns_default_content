@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: db38c731-0b0d-4bc1-a2a0-eecb220c98aa
+  bundle: event
+  default_langcode: en
+  depends:
+    dae5fc97-ce54-4bb6-935c-2a59a3056933: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'DrupalCamp NJ 2026'
+  created:
+    -
+      value: 1753409292
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Regional DrupalCamp in New Jersey. Community sessions, networking, and contributions.'
+      format: basic_html
+      summary: ''
+  field_event_date:
+    -
+      value: '2026-03-12'
+  field_event_hero:
+    -
+      entity: dae5fc97-ce54-4bb6-935c-2a59a3056933
+      alt: 'DrupalCamp NJ 2026'
+      title: ''
+      width: 400
+      height: 427
+  field_location:
+    -
+      value: 'Princeton, New Jersey, USA'
+  field_virtual_event:
+    -
+      value: false

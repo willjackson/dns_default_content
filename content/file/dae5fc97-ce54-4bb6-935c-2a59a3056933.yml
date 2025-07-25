@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dae5fc97-ce54-4bb6-935c-2a59a3056933
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drupalcamp-nj.jpeg
+  uri:
+    -
+      value: 'public://events/hero/drupalcamp-nj.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 62339
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753411093

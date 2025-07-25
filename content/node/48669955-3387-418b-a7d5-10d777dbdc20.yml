@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 48669955-3387-418b-a7d5-10d777dbdc20
+  bundle: event
+  default_langcode: en
+  depends:
+    99b292ce-55a2-49c5-ad73-2a9a3ad33cef: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'DrupalCamp Chattanooga 2025'
+  created:
+    -
+      value: 1753409320
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Planned community camp in Tennessee. Volunteer‑driven event to share workshops and Drupal knowledge.'
+      format: basic_html
+      summary: ''
+  field_event_date:
+    -
+      value: '2025-11-08'
+  field_event_hero:
+    -
+      entity: 99b292ce-55a2-49c5-ad73-2a9a3ad33cef
+      alt: 'DrupalCamp Chattanooga 2025'
+      title: ''
+      width: 600
+      height: 600
+  field_location:
+    -
+      value: 'Chattanooga, Tennessee, USA'
+  field_virtual_event:
+    -
+      value: false
